@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swaraj Shooting Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 120px;
+    }
+    nav {
+      background: #222;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .contact-box {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png">
+  <h1>Swaraj Shooting Academy</h1>
+  <p>Train Like a Champion 🎯</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>India’s top shooting training academy with modern facilities and expert coaching.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Swaraj Shooting Academy & Educational Trust provides professional pistol and rifle shooting training with advanced infrastructure.</p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="photo1.jpg">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+    <img src="photo4.jpg">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-box">
+    <p><b>Phone:</b> 9911622255</p>
+    <p><b>Address:</b> Pakhnaha Sriram, N.H.-28, P.O. Kanti, P.S. Panapur, Muzaffarpur, 843109, Bihar</p>
+    <p><b>Email:</b> swarajacademy@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Swaraj Shooting Academy</p>
+</footer>
+
+</body>
+</html>
